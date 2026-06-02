@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajaykumar Hapse | Program Coordinator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+    :root {
+      --primary: #0f766e;
+      --accent: #14b8a6;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .heading-font {
+      font-family: 'Playfair Display', sans-serif;
+    }
+
+    .hero-bg {
+      background: linear-gradient(135deg, #0f766e 0%, #164e63 100%);
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .section-header {
+      position: relative;
+    }
+
+    .section-header:after {
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(to right, #14b8a6, #0f766e);
+      bottom: -8px;
+      left: 0;
+    }
+
+    .timeline-dot {
+      box-shadow: 0 0 0 6px rgba(20, 184, 166, 0.2);
+    }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-lg border-b border-zinc-200 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-teal-600 rounded-2xl flex items-center justify-center text-white font-bold text-xl">AH</div>
+        <div>
+          <h1 class="font-semibold text-xl tracking-tight">Ajaykumar Hapse</h1>
+          <p class="text-xs text-teal-600 font-medium">Program Coordinator</p>
+        </div>
+      </div>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="#about" class="hover:text-teal-600 transition-colors">About</a>
+        <a href="#experience" class="hover:text-teal-600 transition-colors">Experience</a>
+        <a href="#skills" class="hover:text-teal-600 transition-colors">Expertise</a>
+        <a href="#achievements" class="hover:text-teal-600 transition-colors">Achievements</a>
+        <a href="#contact" class="hover:text-teal-600 transition-colors">Contact</a>
+      </div>
+
+      <a href="https://wa.me/919860200108" target="_blank"
+         class="bg-teal-600 text-white px-6 py-3 rounded-2xl text-sm font-semibold flex items-center gap-2 hover:bg-teal-700 transition-all active:scale-95">
+        <i class="fa-brands fa-whatsapp"></i>
+        Connect
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg text-white pt-32 pb-24">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-3xl text-sm">
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          Available for New Opportunities
+        </div>
+        
+        <h1 class="text-6xl md:text-7xl font-bold heading-font leading-none tracking-tighter">
+          AJAYKUMAR<br>HAPSE
+        </h1>
+        
+        <p class="text-2xl text-teal-100">Program Coordinator &amp; Education Leader</p>
+        
+        <div class="flex items-center gap-4 text-sm">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Karvenagar, Pune</span>
+          </div>
+          <div class="h-1 w-1 bg-teal-300 rounded-full"></div>
+          <div>10+ Years Experience</div>
+        </div>
+
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="#contact" 
+             class="bg-white text-teal-700 hover:bg-teal-50 px-8 py-4 rounded-3xl font-semibold flex items-center gap-3 transition-all">
+            <i class="fa-solid fa-paper-plane"></i>
+            Get In Touch
+          </a>
+          <a href="#" 
+             onclick="downloadCV()" 
+             class="border border-white/70 hover:border-white px-8 py-4 rounded-3xl font-semibold flex items-center gap-3 transition-all">
+            <i class="fa-solid fa-download"></i>
+            Download CV
+          </a>
+        </div>
+
+        <div class="flex gap-8 pt-8">
+          <a href="mailto:avhapse@gmail.com" class="hover:text-teal-300 transition-colors flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-xl"></i>
+            <span class="text-sm">avhapse@gmail.com</span>
+          </a>
+          <a href="tel:+919860200108" class="hover:text-teal-300 transition-colors flex items-center gap-2">
+            <i class="fa-solid fa-phone text-xl"></i>
+            <span class="text-sm">+91 98602 00108</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Profile Image Placeholder -->
+      <div class="flex justify-center md:justify-end">
+        <div class="relative">
+          
+          
+            
+            
+            <div>
+              
+              
+            </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-bold heading-font text-center mb-12">Professional Summary</h2>
+      <div class="glass border border-zinc-100 rounded-3xl p-10 md:p-16 shadow-xl">
+        <p class="text-lg leading-relaxed text-zinc-700">
+          A dynamic, field-hardened, and multilingual professional with over 10 years of combined experience across academic leadership, technical training, and grassroots social initiatives. 
+          With a strong technical foundation (B.E. in Information Technology) and deep linguistic expertise, I excel at translating policy into ground-level execution. 
+          Proven leader in community mobilization through international bicycle expeditions across India, Thailand, and Cambodia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Competencies -->
+  <section id="skills" class="py-24 bg-zinc-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold heading-font text-center mb-16">Core Competencies</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            📋
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Program &amp; Project Coordination</h3>
+          <p class="text-zinc-600">End-to-end planning, resource allocation, and lifecycle management.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            🌍
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Grassroots &amp; Field Operations</h3>
+          <p class="text-zinc-600">High-endurance field capability and community mobilization.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            🎓
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Capacity Building &amp; Training</h3>
+          <p class="text-zinc-600">8+ years designing and delivering impactful educational programs.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            🌐
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Bilingual Communication</h3>
+          <p class="text-zinc-600">Expert English-Marathi translation of policies and government schemes.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            🤝
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Liaison &amp; Stakeholder Management</h3>
+          <p class="text-zinc-600">Strong relationships with NGOs, government bodies, and institutions.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition-all group">
+          <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+            📊
+          </div>
+          <h3 class="font-semibold text-xl mb-3">Digital Outreach</h3>
+          <p class="text-zinc-600">Social media management, database administration, and data tracking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold heading-font text-center mb-16">Professional Journey</h2>
+      
+      <div class="space-y-12">
+        <!-- Experience Card -->
+        <div class="grid md:grid-cols-12 gap-8 items-start">
+          <div class="md:col-span-4">
+            <div class="sticky top-28">
+              <div class="text-teal-600 font-medium">July 2025 – May 2026</div>
+              <h3 class="text-2xl font-semibold mt-2">Head of Department – AI &amp; Machine Learning</h3>
+              <p class="text-zinc-500">Phalke Patil College of Engineering, Karjat</p>
+            </div>
+          </div>
+          <div class="md:col-span-8">
+            <div class="bg-zinc-50 rounded-3xl p-8 space-y-6">
+              <ul class="space-y-4">
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Established departmental operations and industry-aligned AI/ML curriculum</li>
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Trained 100+ students in emerging technologies</li>
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Managed budgets, infrastructure, and stakeholder coordination</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-8 items-start">
+          <div class="md:col-span-4">
+            <div class="sticky top-28">
+              <div class="text-teal-600 font-medium">June 2018 – June 2025</div>
+              <h3 class="text-2xl font-semibold mt-2">Lecturer – Information Technology</h3>
+              <p class="text-zinc-500">Shri Siddhivinayak Polytechnic, Siddhatek</p>
+            </div>
+          </div>
+          <div class="md:col-span-8">
+            <div class="bg-zinc-50 rounded-3xl p-8 space-y-6">
+              <ul class="space-y-4">
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Designed and delivered IT curriculum to 200+ students annually</li>
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Supervised real-world capstone projects</li>
+                <li class="flex gap-4"><span class="text-teal-500 mt-1">•</span> Managed academic databases and institutional collaborations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-8 items-start">
+          <div class="md:col-span-4">
+            <div class="sticky top-28">
+              <div class="text-teal-600 font-medium">June 2024 – Present</div>
+              <h3 class="text-2xl font-semibold mt-2">Retail Manager (Part-Time)</h3>
+              <p class="text-zinc-500">Wardha Weaver – Sustainable Fashion</p>
+            </div>
+          </div>
+          <div class="md:col-span-8">
+            <div class="bg-zinc-50 rounded-3xl p-8">
+              <p class="text-zinc-600">Driving awareness for organic handloom and eco-friendly fashion through community marketing and customer engagement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-24 bg-gradient-to-br from-teal-50 to-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold heading-font mb-6">Key Differentiators</h2>
+      <p class="text-xl text-zinc-600 mb-16">What makes me unique</p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-10 rounded-3xl text-left border border-teal-100">
+          <div class="text-6xl mb-6">🚲</div>
+          <h3 class="font-semibold text-2xl mb-4">Multi-Country Expedition Leader</h3>
+          <p class="text-zinc-600">Self-organized and completed a friendship bicycle expedition across India, Thailand &amp; Cambodia to promote peace and NGO collaboration.</p>
+        </div>
+
+        <div class="bg-white p-10 rounded-3xl text-left border border-teal-100">
+          <div class="text-6xl mb-6">🌏</div>
+          <h3 class="font-semibold text-2xl mb-4">Regional Language &amp; Translation Expert</h3>
+          <p class="text-zinc-600">M.A. in Marathi and Translational Studies. Expert in bridging government schemes, policies, and grassroots communities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-zinc-900 text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-bold heading-font mb-6">Let's Create Impact Together</h2>
+      <p class="text-xl text-zinc-400 mb-12">Open to Program Coordination, Training, and Development roles at CEGP Foundation and similar organizations.</p>
+      
+      <div class="flex flex-col md:flex-row gap-6 justify-center">
+        <a href="mailto:avhapse@gmail.com" 
+           class="bg-teal-600 hover:bg-teal-500 px-10 py-6 rounded-3xl text-lg font-medium transition-all flex items-center justify-center gap-3">
+          <i class="fa-solid fa-envelope"></i>
+          Send Email
+        </a>
+        
+        <a href="https://wa.me/919860200108" target="_blank"
+           class="bg-white text-zinc-900 hover:bg-zinc-100 px-10 py-6 rounded-3xl text-lg font-medium transition-all flex items-center justify-center gap-3">
+          <i class="fa-brands fa-whatsapp text-green-500"></i>
+          WhatsApp
+        </a>
+      </div>
+
+      <div class="mt-16 pt-10 border-t border-zinc-800 text-sm text-zinc-500">
+        Karvenagar, Pune, Maharashtra • +91 98602 00108
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black py-8 text-center text-zinc-500 text-sm">
+    <p>© 2026 Ajaykumar Vijay Hapse. Crafted with purpose.</p>
+  </footer>
+
+  <script>
+    function downloadCV() {
+      alert("📄 CV download feature would be implemented here.\n\nIn a real website, this would trigger a PDF download.");
+    }
+
+    // Tailwind script already included
+    console.log("%cAjaykumar Hapse Portfolio Loaded Successfully ✨", "color: #14b8a6; font-size: 14px; font-weight: bold");
+  </script>
+</body>
+</html>
